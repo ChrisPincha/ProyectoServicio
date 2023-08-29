@@ -1,0 +1,509 @@
+/*Letra NORMAL->
+font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+/*Letra TITULOS->
+font-family: 'Bebas Neue', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital@1&display=swap');
+/*Colores
+#white
+#A6D1E6 cian blanquesino
+#272727 plomo medio claro
+#black*/
+/*ESTILOS GENERALES*/
+/*Quitar el margen*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62,5%;
+    background-image: url(../cssmedia/fondonegro3.jpg);
+}
+html{
+    font-family: 'Lato', sans-serif; 
+    color:white 
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', sans-serif;
+    color:white;
+}
+/*Header barra de navegacion*/
+.logo{
+    width: 2rem;
+    border-radius: 2.5rem;
+    border: 0.1rem solid #000;
+    align-self: center;
+    
+}
+.slogan{
+    font-family: 'Bebas Neue', sans-serif;
+    /*border: 0.1rem solid aqua;*/
+    text-decoration: none;
+    height: 3rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+
+}
+header nav a{
+    color:white
+}
+.header-nav{
+    position: sticky;
+    top: 0.01rem;
+    z-index: 3;  
+    /* padding-left: rem; -->PAdding header por si se ve feo*/
+    
+}
+.logo-inicio{
+    /*border: 0.1rem solid green;*/
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;     
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-image: url(../cssmedia/fondonegro3.jpg);
+}
+header nav ul a{
+    text-decoration: none;
+}
+.menu{
+    list-style: none;
+    font-family: 'Lato', sans-serif; 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;/*preguntar acerca de como hacer para cuando la pantalla se vuelve mas pequeña como hacer que solo ahi se ponga en columna*/
+    /*border: 0.1rem solid white;*/
+    width: 50rem;
+    align-items: center;
+    height: 3rem;
+    padding-right: 0.5rem;
+}
+
+menu li a{
+    color:white
+}
+/*Footer*/
+footer{
+    /*border: 0.1rem solid white;*/
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer p{
+    color: white;
+    text-align: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    padding-left: 3rem;
+    opacity: 0.5;
+}
+
+/*INDEX*/
+/*Main*/
+/*Presentacion*/
+.presentacion h1{
+    text-align: center;
+    /*border: 0.1rem solid white;*/
+    height: 2.5rem;
+    background-image: url(../htmlmedia/capital.jpg);
+    padding: 7rem 15rem;
+    -webkit-text-stroke:0.01rem #000;
+    
+}
+.presentacion{
+    text-align: center;
+    /*border: 0.1rem solid white;*/
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 0;
+    justify-content: center;
+}
+.presentacion p{
+    /*border: 0.1rem solid green;*/
+    margin: 1rem 10rem;
+}
+/*Servicio al alcance-Confianza brindada*/
+.grid-inicio{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    'titulo1 titulo1'
+    'texto1 imagen1'
+    'titulo2 titulo2'
+    'texto2 imagen2'
+    ;
+}
+.titulo-index{
+    grid-area: titulo1;
+    background-color: #000;
+    padding: 1rem 0 1rem 3rem;
+    font-size: 1.5rem;
+}
+.first{
+    grid-area:texto1 ;
+    background-color: #000;
+    padding: 1rem 0 1rem 3rem;
+    font-size: 1.5rem;
+}
+.uno{
+    grid-area:imagen1;
+    background-color: #000;
+    padding: auto;
+    text-align: right;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.titulo-index2{
+    grid-area: titulo2;
+    padding: 1rem 3rem 1rem 0rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+.dos{
+    grid-area: texto2;
+    padding: auto;
+    margin:0 0 1rem 3rem;
+}
+.second{
+    grid-area: imagen2;
+    padding: 1rem 3rem 1rem 0rem;
+    font-size: 1.5rem;
+}
+.uno img,.dos img{
+    width: 25rem;
+}
+
+/*PAGINA QUIENES SOMOS*/
+.titlesomos1{
+    /*border: 0.1rem solid white;*/
+    padding: 2rem 0 1rem 3rem;
+    font-size: 1.5rem;
+    background-color: #000;
+}
+.titlesomos2{
+    /*border: 0.1rem solid white;*/
+    padding: 2rem 0 1rem 3rem;
+    font-size: 1.5rem;
+    
+}
+.somosinfo{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000;
+    padding-bottom: 5rem;
+}
+.somosinfo p{
+    max-width: 35rem;
+    padding: 3rem 0 0 3rem;
+    font-size: 1.5rem;
+}
+.somosinfo img{
+    margin-right: 3rem;
+    border: 0.1rem solid white;
+}
+.trayectoria{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+.trayectoria p{
+    max-width: 35rem;
+    padding: 3rem 0 0 3rem;
+    font-size: 1.5rem;
+}
+.trayectoria img{
+    margin-right: 3rem;
+    width: 20rem;
+    border: 0.1rem solid white;
+}
+
+/*PAGINA NUESTROS SERVICIOS*/
+/*Intro*/
+.title-servicio h1{
+    /*border: 0.1rem solid white;*/
+    padding: 1rem 0 1rem 0;
+    font-size: 2rem;
+}
+.title-servicio img{
+    width: 40rem;
+}
+.title-servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Tres servicios*/
+.section-partes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000;
+    border: 0.1rem solid white;
+    padding:1rem 1rem 1rem 1rem;
+    display: grid;
+    grid-template-rows: 0.2fr 1.5fr 0.5fr;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    
+}
+.un, .doux, .trois,.um,.dois,.treis,.one,.two,.three {
+    /* border: 0.1rem solid white; */
+    justify-self: center;
+}
+.one img,.two img,.three img{
+    width: 10rem;
+    border: 0.1rem solid white;
+}
+/* ,.um,.dois,.treis,.one,.two,.three */
+/*final*/
+.title-garantia{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.funcion-garan{
+    padding-left: 3rem;
+}
+.funcion-garan-p{
+    padding-left: 3rem;
+}
+.funcion-garan h3{
+    font-size: 1.5rem;
+}
+/* Usaremos grid para facilitar en mobile */
+
+
+
+/*COBERTURA--> SOLO ESTA AQUI EL SIZE DE LAS IMAGENES Y EL P*/
+/*Titulo esta con quienes somos*/
+/*Parrafo de introduccion */
+.title-servicio p{
+    border: 0.1rem solid white;
+    font-size: 1.5rem;
+    max-width: 50rem;
+    margin: 1rem 0 3rem 0;
+}
+/*Esquema de h2 y p esta junto con quienes somos*/
+.cobertura img{
+    width: 16rem;
+} 
+.taller img{
+    width: 16rem;
+}
+.grid-requisitos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    padding: 1rem 0 1rem 4rem;
+}
+.izquierdo, .derecho{
+    padding: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+}
+.izquierdo2, .derecho2{
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+/*CONTACTANOS*/
+
+.title-final{
+    border: 0.1rem solid white;
+    text-align: center;
+    background-color:#000;
+    padding: 1rem 0 1rem 0;
+}
+.p-final{
+    border: 0.1rem solid white;
+    text-align: center;
+    background-color:#000;
+    padding: 1rem 0 1rem 0;
+    margin: 0rem 6rem 0 6rem ;
+}
+/* Mobile section-> Para mobiles */
+@media only screen and (max-width:500px){
+    /* Index-inicio */
+    *{
+        max-width: 500px;
+    }
+    header{
+        max-width: 500px;
+    }
+    .menu{
+        max-width: 500px;
+    }
+    .nav-bar{
+        max-width: 500px;
+    }
+    .menu caja{
+        max-width: 500px;
+    }
+    .presentacion h1{
+        max-width: 500px;
+        white-space: nowrap;
+        padding: 2rem 5rem 4rem 5rem;
+    }
+    .presentacion p{
+        /* border: 0.1rem solid white; */
+        margin: 0 5rem 0 5rem;
+        text-align: center;
+        padding: 0 0 1rem 0;
+    }
+    /* Introduccion */
+    .grid-inicio{
+        display: grid;
+        grid-template-columns: 500px;
+        grid-template-rows:repeat(6, auto) ;
+        grid-template-areas: 
+        ' primero '
+        ' segundo '
+        ' tercero '
+        ' cuarto '
+        ' quinto '
+        ' sexto ';
+    }
+    .titulo-index,.titulo-index2{
+        padding: 1rem 0 1rem 0;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .titulo-index{
+        grid-area: primero;
+    }
+    .first{
+        grid-area: segundo;
+        background-color: #000;
+        text-align: center;
+        padding:1rem;
+        font-size: 0.8rem;
+    }
+    .uno{
+        grid-area: tercero;
+        background-color: #000;
+        padding: auto; 
+    }
+    .titulo-index2{
+        grid-area: cuarto;        
+    }
+    .second{
+        grid-area: quinto;
+        text-align: center;
+        padding:1rem;
+        font-size: 0.8rem;
+    }
+    .dos{
+        grid-area: sexto;  
+        padding: auto;
+    }
+    /* Page-quienes somos */
+    .mobile-grid-somos{
+        display: grid;
+        grid-template-columns: 500px;
+        grid-template-rows:repeat(2,auto);
+        grid-template-areas: 
+        ' primero '
+        ' segundo '
+        ' tercero '
+        ' cuarto '
+        ' quinto '
+        ' sexto ';
+        
+    }
+    .titlesomos1,.titlesomos2{
+        font-size: 0.8rem;
+        padding: 1rem 0 1rem 0;
+        text-align: center;
+    }
+    .somosinfo p,.trayectoria p{
+        font-size: 0.7rem;
+        padding: 1rem 2rem 1rem 2rem;
+        text-align: center;
+    }
+    .somosinfo img,.trayectoria img{
+        max-width:40%;
+        align-self: center;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    .somosinfo,.trayectoria{
+        display: contents;
+        text-align: center;
+    }
+    .titlesomos1{
+        grid-area: primero;
+    }
+    .somosinfo p{
+        grid-area: segundo;
+        background-color: #000;
+    }
+    .somosinfo img{
+        grid-area: tercero;
+    }
+    .titlesomos2{
+        grid-area: cuarto;
+    }
+    .trayectoria p{
+        grid-area: quinto;
+    }
+    .trayectoria img{
+        grid-area: sexto;
+    }
+    /* NUestros servicios-page */
+    .section-partes{
+        display: grid;
+        grid-template-columns: 500px;
+        grid-template-rows:repeat(2,auto);
+        grid-template-areas: 
+        ' primero '
+        ' segundo '
+        ' tercero '
+        ' cuarto '
+        ' quinto '
+        ' sexto '
+        'septimo'
+        'octavo'
+        'noveno';
+        text-align: center;
+    }
+    .un{
+        grid-area: primero;
+    }
+    .doux{
+        grid-area: cuarto;
+    }
+    .trois{
+        grid-area: septimo;
+    }
+    .um{
+        grid-area: tercero;
+    }
+    .dois{
+        grid-area:sexto ;
+    }
+    .treis{
+        grid-area: noveno;
+    }
+    .one{
+        grid-area: segundo;
+    }
+    .two{
+        grid-area: quinto;
+    }
+    .three{
+        grid-area: octavo;
+    }
+    
+    
+}   
