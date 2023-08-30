@@ -17,7 +17,6 @@ font-family: 'Bebas Neue', sans-serif;*/
     box-sizing: border-box;
     /* fondo imagen y ajuste size */
     background-image: url(../cssmedia/fondonegro3.jpg);
-    font-size: 62,5%;
 }
 .fuenteLetra{/*Header barra de navegacion*/
     font-family:  'Bebas Neue', sans-serif;
