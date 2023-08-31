@@ -16,7 +16,10 @@ font-family: 'Bebas Neue', sans-serif;*/
     padding:0;
     box-sizing: border-box;
     /* fondo imagen y ajuste size */
+}
+main, footer{
     background-image: url(../cssmedia/fondonegro3.jpg);
+
 }
 .fuenteLetra{/*Header barra de navegacion*/
     font-family:  'Bebas Neue', sans-serif;
@@ -42,9 +45,28 @@ footer p{
 /*INDEX*/
 /*Main*/
 /*Presentacion*/
-
+.presentacion h1{
+    /* text-align: center; */
+    /*border: 0.1rem solid white;*/
+    /* height: 2.5rem; */
+    background-image: url(../htmlmedia/capital.jpg);
+    /* padding:10rem 15rem; */
+    padding: 10rem 0;
+}
+/* .presentacion{
+    text-align: center;
+    /*border: 0.1rem solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.presentacion p{
+    border: 0.1rem solid green;
+    margin: 1rem 10rem;
+} */
 /*Servicio al alcance-Confianza brindada*/
-.colorFondo{
+.fondoInicio{
+    background-color: #000;
 }
 /*PAGINA QUIENES SOMOS*/
 .titlesomos1{
@@ -197,9 +219,9 @@ footer p{
     padding: 1rem 0 1rem 0;
     margin: 0rem 6rem 0 6rem ;
 }
-/* Mobile section-> Para mobiles */
+/* Mobile section-> Para mobiles 
 @media only screen and (max-width:500px){
-    /* Index-inicio */
+    /* Index-inicio 
     *{
         max-width: 500px;
     }
@@ -221,12 +243,12 @@ footer p{
         padding: 2rem 5rem 4rem 5rem;
     }
     .presentacion p{
-        /* border: 0.1rem solid white; */
+        /* border: 0.1rem solid white; 
         margin: 0 5rem 0 5rem;
         text-align: center;
         padding: 0 0 1rem 0;
     }
-    /* Introduccion */
+    /* Introduccion 
     .grid-inicio{
         display: grid;
         grid-template-columns: 500px;
@@ -272,7 +294,7 @@ footer p{
         grid-area: sexto;  
         padding: auto;
     }
-    /* Page-quienes somos */
+    /* Page-quienes somos 
     .mobile-grid-somos{
         display: grid;
         grid-template-columns: 500px;
@@ -324,7 +346,7 @@ footer p{
     .trayectoria img{
         grid-area: sexto;
     }
-    /* NUestros servicios-page */
+    /* NUestros servicios-page 
     .section-partes{
         display: grid;
         grid-template-columns: 500px;
@@ -370,4 +392,4 @@ footer p{
     }
     
     
-}   
+}*/   
