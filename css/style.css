@@ -46,122 +46,18 @@ footer p{
 /*Main*/
 /*Presentacion*/
 .presentacion h1{
-    /* text-align: center; */
-    /*border: 0.1rem solid white;*/
-    /* height: 2.5rem; */
     background-image: url(../htmlmedia/capital.jpg);
-    /* padding:10rem 15rem; */
     padding: 10rem 0;
 }
-/*Servicio al alcance-Confianza brindada*/
+/*FONDOS NEGROS*/
 .fondoNegro{
     background-color: #000;
 }
 /*PAGINA QUIENES SOMOS*/
-.titlesomos1{
-    /*border: 0.1rem solid white;*/
-    padding: 2rem 0 1rem 3rem;
-    font-size: 1.5rem;
-    background-color: #000;
-}
-.titlesomos2{
-    /*border: 0.1rem solid white;*/
-    padding: 2rem 0 1rem 3rem;
-    font-size: 1.5rem;
-    
-}
-.somosinfo{
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #000;
-    padding-bottom: 5rem;
-}
-.somosinfo p{
-    max-width: 35rem;
-    padding: 3rem 0 0 3rem;
-    font-size: 1.5rem;
-}
-.somosinfo img{
-    margin-right: 3rem;
-    border: 0.1rem solid white;
-}
-.trayectoria{
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 5rem;
-}
-.trayectoria p{
-    max-width: 35rem;
-    padding: 3rem 0 0 3rem;
-    font-size: 1.5rem;
-}
-.trayectoria img{
-    margin-right: 3rem;
-    width: 20rem;
-    border: 0.1rem solid white;
-}
+
 
 /*PAGINA NUESTROS SERVICIOS*/
 /*Intro*/
-.title-servicio h1{
-    /*border: 0.1rem solid white;*/
-    padding: 1rem 0 1rem 0;
-    font-size: 2rem;
-}
-.title-servicio img{
-    width: 40rem;
-}
-.title-servicio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/*Tres servicios*/
-.section-partes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #000;
-    border: 0.1rem solid white;
-    padding:1rem 1rem 1rem 1rem;
-    display: grid;
-    grid-template-rows: 0.2fr 1.5fr 0.5fr;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
-    
-}
-.un, .doux, .trois,.um,.dois,.treis,.one,.two,.three {
-    /* border: 0.1rem solid white; */
-    justify-self: center;
-}
-.one img,.two img,.three img{
-    width: 10rem;
-    border: 0.1rem solid white;
-}
-/* ,.um,.dois,.treis,.one,.two,.three */
-/*final*/
-.title-garantia{
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    font-size: 1.5rem;
-}
-.funcion-garan{
-    padding-left: 3rem;
-}
-.funcion-garan-p{
-    padding-left: 3rem;
-}
-.funcion-garan h3{
-    font-size: 1.5rem;
-}
-/* Usaremos grid para facilitar en mobile */
-
-
 
 /*COBERTURA--> SOLO ESTA AQUI EL SIZE DE LAS IMAGENES Y EL P*/
 /*Titulo esta con quienes somos*/
