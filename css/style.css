@@ -17,7 +17,17 @@ font-family: 'Bebas Neue', sans-serif;*/
     box-sizing: border-box;
     /* fondo imagen y ajuste size */
 }
-main, footer{
+/*FONDOS NEGROS*/
+.fondoNegro{
+    background-color: #000;
+}
+
+main{
+    background-image: url(../cssmedia/fondonegro3.jpg);
+
+}
+/* Fondos footers */
+.fondoFooter{
     background-image: url(../cssmedia/fondonegro3.jpg);
 
 }
@@ -44,13 +54,10 @@ footer p{
 
 /*INDEX*/
 /*Main*/
-/*Presentacion*/
-.presentacion h1{
-    background-image: url(../htmlmedia/capital.jpg);
-    padding: 10rem 0;
+.presentacion{
+    font-family: 'Bebas Neue', sans-serif;
 }
-/*FONDOS NEGROS*/
-.fondoNegro{
-    background-color: #000;
-}
+
+
+
 
