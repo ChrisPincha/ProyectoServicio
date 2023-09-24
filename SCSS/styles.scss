@@ -1,0 +1,53 @@
+//Letras 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital@1&display=swap');
+//font-family: 'Lato', sans-serif; -->LEtra Normal
+//font-family: 'Bebas Neue', sans-serif; --> letra titulos
+$letranormal:'Lato', sans-serif;
+$letratitulo:'Bebas Neue', sans-serif;
+//POner colores
+
+
+//Ajutses generales
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+}
+//Fondos negros
+.fondoNegro{
+    background-color: #000;
+} 
+//Imagenes de fondo
+main{
+    background-image: url(../cssmedia/fondonegro3.jpg);
+}
+.fondoFooter{
+    background-image: url(../cssmedia/fondonegro3.jpg);
+}
+//inicio
+.fuenteLetra{/*Header barra de navegacion*/
+    font-family: $letratitulo;
+    font-size: 1.5rem;
+    background-image: url(../cssmedia/fondonegro3.jpg);
+}
+.presentacion{
+    font-family: $letratitulo;
+}
+//footer
+footer{
+    /*border: 0.1rem solid white;*/
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    p{
+        color: white;
+        text-align: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        padding-left: 3rem;
+        opacity: 0.5;
+    }
+}
+

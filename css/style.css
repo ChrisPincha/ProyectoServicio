@@ -1,8 +1,9 @@
+
 /*Letra NORMAL->
-font-family: 'Lato', sans-serif;*/
+font-family: 'Lato', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 /*Letra TITULOS->
-font-family: 'Bebas Neue', sans-serif;*/
+font-family: 'Bebas Neue', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital@1&display=swap');
 /*Colores
 #white
@@ -10,34 +11,35 @@ font-family: 'Bebas Neue', sans-serif;*/
 #272727 plomo medio claro
 #black*/
 /*ESTILOS GENERALES*/
-/*Quitar el margen*/
+/*Quitar el margen
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    /* fondo imagen y ajuste size */
+    /*fondo imagen y ajuste size
 }
-/*FONDOS NEGROS*/
+
+/*FONDOS NEGROS
 .fondoNegro{
     background-color: #000;
-}
+} 
 
 main{
     background-image: url(../cssmedia/fondonegro3.jpg);
 
 }
-/* Fondos footers */
+/* Fondos footers /
 .fondoFooter{
     background-image: url(../cssmedia/fondonegro3.jpg);
 
 }
-.fuenteLetra{/*Header barra de navegacion*/
+.fuenteLetra{/*Header barra de navegacion/
     font-family:  'Bebas Neue', sans-serif;
     font-size: 1.5rem;
     background-image: url(../cssmedia/fondonegro3.jpg);
 }
 footer{/*Footer*/
-    /*border: 0.1rem solid white;*/
+    /*border: 0.1rem solid white
     height: 3rem;
     display: flex;
     flex-direction: row;
@@ -53,11 +55,11 @@ footer p{
 }
 
 /*INDEX*/
-/*Main*/
+/*Main
 .presentacion{
     font-family: 'Bebas Neue', sans-serif;
-}
+}*/
 
-
+/* DEJA DE USAR ESTE CSS USA EL SASS */
 
 
